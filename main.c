@@ -96,7 +96,7 @@ void calculate(char AccountNum[],double* pBalance,double* pBeforeBalance,double*
                 }
                 else
                 {
-                    printf("Balance money is not enough to withdrawal\n");
+                    printf("Balance money is not enough to use\n"); // Editing Version
                 }
             }
             else
