@@ -130,13 +130,8 @@ double getTransaction(int count,double balance,double deposit[],double withdraw[
         if(deposit[count]>=500000)
         {
             bonus[count]=100;
-<<<<<<< HEAD
-            printf("You deposit more than 50000 baht\n");
-            printf("You get 100 baht bonus\n"); //Editing Version
-=======
-            printf("You deposit more than 400000 baht\n");
-            printf("You get 300 baht bonus\n"); //Editing Version
->>>>>>> 91751905c4ad8380f538f642e1eb2792c8c86e11
+            printf("You deposit more than 80000 baht\n");
+            printf("You get 600 baht bonus\n"); //Editing Version
         }
     }
     if(trans<0)
